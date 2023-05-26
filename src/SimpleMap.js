@@ -1,3 +1,5 @@
+//NOTE THAT THIS IS THE REACT-SIMPLE-MAPS VERSION. ZOOM IS NOT GOOD ENOUGH TO DIFFERENTIATE POINTS THAT ARE VERY CLOSE BY
+
 import { Button, Image, Modal, ModalBody, ModalContent, ModalHeader, ModalOverlay, useDisclosure } from "@chakra-ui/react";
 import React from "react";
 import {
@@ -39,7 +41,7 @@ for (let index = 0; index < markers.length; index++) {
 // console.log("All markers:", markers)
 
 
-const Body = () => {
+const SimpleMap = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const [name, setName] = React.useState(null)
     const [image, setImage] = React.useState(null)
@@ -119,4 +121,4 @@ const Body = () => {
   );
 };
 
-export default Body;
+export default SimpleMap;
