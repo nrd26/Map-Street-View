@@ -1,0 +1,18 @@
+.popup-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .popup-button:hover {
+    background-color: green;
+  }
+  
